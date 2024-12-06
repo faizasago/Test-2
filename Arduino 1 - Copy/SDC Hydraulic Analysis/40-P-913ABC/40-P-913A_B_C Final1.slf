@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Library SYSTEM "Library.dtd">
+<Library>
+	<Schedule-section>
+	</Schedule-section>
+	<Fitting-section>
+	</Fitting-section>
+	<Pump-section>
+		<Pump-definition curve-type="smooth" flowrate-unit="m3-hour" max-flow="0.277777778" min-flow="0.0972222222" pressure-unit="bar">
+			<Item-name>40-P-913A/B/C</Item-name>
+			<Description>Vertical Turbine Pump</Description>
+			<Set-of-pump-points>
+				<Pump-point flow="0.0972222222" pressure="400000"/>
+				<Pump-point flow="0.138888889" pressure="350000"/>
+				<Pump-point flow="0.208333333" pressure="320000"/>
+				<Pump-point flow="0.277777778" pressure="310000"/>
+			</Set-of-pump-points>
+		</Pump-definition>
+	</Pump-section>
+	<Control-valve-section>
+	</Control-valve-section>
+	<Fluid-section>
+	</Fluid-section>
+	<Nozzle-section>
+	</Nozzle-section>
+	<Deluge-valve-section>
+	</Deluge-valve-section>
+	<Lining-section>
+	</Lining-section>
+	<TurboPump-section>
+	</TurboPump-section>
+	<Inertial-pump-section>
+	</Inertial-pump-section>
+	<Pressure-loss-section>
+	</Pressure-loss-section>
+	<Tanks-section>
+	</Tanks-section>
+	<Nozzles-section>
+	</Nozzles-section>
+	<Lagging-section>
+	</Lagging-section>
+	<Binary-Interaction-Data-section>
+	</Binary-Interaction-Data-section>
+</Library>

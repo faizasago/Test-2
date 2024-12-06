@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "standard.dtd">
+<Project version="1.11.0  (3574)">
+	<Network-standard>
+		<Libraries>
+			<User-lib file="C:\SDC Hydraulic Analysis\30-P-203B\30-P-203B.slf"/>
+		</Libraries>
+		<Attributes>
+			<Units flowtype="volumetric" type="user-defined">
+				<Length-unit display="0" precision="0" unit="metres"/>
+				<Diameter-unit display="1" precision="3" unit="inches"/>
+				<Pressure-unit display="1" precision="1" unit="bar-g"/>
+				<Temperature-unit display="0" precision="1" unit="deg-c"/>
+				<Velocity-unit display="1" precision="1" unit="m-s"/>
+				<Density-unit display="1" precision="1" unit="kg-m3"/>
+				<Viscosity-unit display="1" precision="1" unit="cp"/>
+				<Volumetric-flow-unit display="1" precision="1" unit="m3-hour"/>
+				<Mass-flow-unit display="0" precision="0" unit="kg-s"/>
+				<Heat-capacity-unit display="1" precision="1" unit="joule-kgk"/>
+				<Power-unit display="0" precision="0" unit="kW"/>
+			</Units>
+			<Fluid-water temperature="333.15"/>
+			<Design-options analysis-phase="1" design-phase="0" max-velocity="Unset" orifice-plate-model="bs1042" pressure-equation="colebrook-white"/>
+			<Heat-transfer ambient-temperature="288.15" enabled="0" heat-loss-enabled="0"/>
+			<Calc-options convergence-accuracy="0.001" height-check-tolerance="0.5" lines-page="55" max-iterations="200" node-elevations="0" warnings="proceed">
+				<Output validation="0">
+					<Tables breaks-blocks="1" design="1" ducts="1" elevations="1" filter-results="1" filters="1" fixed-pd="1" fluid="1" general="1" hgl="1" inlet-results="1" io-nodes="1" leak-results="1" leaks="1" materials="0" nozzle-results="1" nozzles="1" nr-valve-results="1" nr-valves="1" outlet-results="1" pipe-results="1" pipes="1" plate-results="1" plates="1" pump-results="1" pumps="1" sensors="1" valve-results="1" valves="1"/>
+				</Output>
+			</Calc-options>
+			<Defaults diameter="Unset" elevation="0" friction="Unset" headloss="0" height="Unset" nozzle-cd="Unset" nozzle-diameter="Unset" ports="1" vena-contracta="Unset" width="Unset"/>
+			<Excluded-fittings list=""/>
+		</Attributes>
+		<Nodes>
+			<Node elevation="0" io-node="Input" label="1" use-spec-in-scenarios="0">
+				<Position x="474" y="-345"/>
+				<Calculation-spec flow="0.00138888889"/>
+			</Node>
+			<Node elevation="0" io-node="No" label="2">
+				<Position x="400" y="-349"/>
+			</Node>
+			<Node elevation="-0.396" io-node="No" label="3">
+				<Position x="402" y="-530"/>
+			</Node>
+			<Node elevation="-0.396" io-node="No" label="4">
+				<Position x="321" y="-531"/>
+			</Node>
+			<Node elevation="-0.396" io-node="No" label="5">
+				<Position x="250" y="-490"/>
+			</Node>
+			<Node elevation="-0.396" io-node="No" label="6">
+				<Position x="100" y="-577"/>
+			</Node>
+			<Node elevation="-0.396" io-node="No" label="7">
+				<Position x="152" y="-603"/>
+			</Node>
+			<Node elevation="-0.396" io-node="No" label="8">
+				<Position x="-226" y="-826"/>
+			</Node>
+			<Node elevation="-0.396" io-node="No" label="10">
+				<Position x="-228" y="-758"/>
+			</Node>
+			<Node elevation="0.399" io-node="No" label="11">
+				<Position x="-226" y="-561"/>
+			</Node>
+			<Node elevation="0.399" io-node="No" label="12">
+				<Position x="-50" y="-577"/>
+			</Node>
+			<Node elevation="0.399" io-node="No" label="13">
+				<Position x="126" y="-477"/>
+			</Node>
+			<Node elevation="-0.263" io-node="No" label="14">
+				<Position x="125" y="-532"/>
+			</Node>
+			<Node elevation="-0.263" io-node="No" label="15">
+				<Position x="849" y="-951"/>
+			</Node>
+			<Node elevation="3.225" io-node="No" label="16">
+				<Position x="1201" y="-603"/>
+			</Node>
+			<Node elevation="3.225" io-node="No" label="17">
+				<Position x="1476" y="-447"/>
+			</Node>
+			<Node elevation="1.581" io-node="No" label="18">
+				<Position x="1476" y="-562"/>
+			</Node>
+			<Node elevation="1.581" io-node="No" label="19">
+				<Position x="1750" y="-720"/>
+			</Node>
+			<Node elevation="1.581" io-node="No" label="20">
+				<Position x="2450" y="-319"/>
+			</Node>
+			<Node elevation="-0.263" io-node="No" label="21">
+				<Position x="1200" y="-751"/>
+			</Node>
+			<Node elevation="6.125" io-node="No" label="22">
+				<Position x="2452" y="-114"/>
+			</Node>
+			<Node elevation="6.125" io-node="No" label="23">
+				<Position x="3052" y="233"/>
+			</Node>
+			<Node elevation="6.825" io-node="No" label="24">
+				<Position x="3050" y="376"/>
+			</Node>
+			<Node elevation="6.825" io-node="No" label="25">
+				<Position x="3375" y="563"/>
+			</Node>
+			<Node elevation="6.151" io-node="No" label="26">
+				<Position x="3376" y="418"/>
+			</Node>
+			<Node elevation="6.151" io-node="No" label="27">
+				<Position x="4002" y="56"/>
+			</Node>
+			<Node elevation="6.851" io-node="No" label="28">
+				<Position x="4002" y="203"/>
+			</Node>
+			<Node elevation="6.851" io-node="No" label="29">
+				<Position x="4250" y="347"/>
+			</Node>
+			<Node elevation="6.145" io-node="No" label="30">
+				<Position x="4250" y="202"/>
+			</Node>
+			<Node elevation="6.145" io-node="No" label="31">
+				<Position x="5477" y="908"/>
+			</Node>
+			<Node elevation="6.145" io-node="No" label="32">
+				<Position x="5199" y="1068"/>
+			</Node>
+			<Node elevation="6.145" io-node="No" label="33">
+				<Position x="5525" y="1260"/>
+			</Node>
+			<Node elevation="4.245" io-node="No" label="34">
+				<Position x="5523" y="966"/>
+			</Node>
+			<Node elevation="4.245" io-node="No" label="35">
+				<Position x="6223" y="1365"/>
+			</Node>
+			<Node elevation="2.245" io-node="No" label="36">
+				<Position x="6224" y="1143"/>
+			</Node>
+			<Node elevation="2.245" io-node="No" label="37">
+				<Position x="6600" y="923"/>
+			</Node>
+			<Node elevation="2.245" io-node="No" label="38">
+				<Position x="6646" y="838"/>
+			</Node>
+			<Node elevation="2.245" io-node="No" label="39">
+				<Position x="6750" y="781"/>
+			</Node>
+			<Node elevation="5.515" io-node="No" label="40">
+				<Position x="6749" y="1296"/>
+			</Node>
+			<Node elevation="5.515" io-node="Output" label="41" use-spec-in-scenarios="0">
+				<Position x="6821" y="1297"/>
+				<Calculation-spec pressure="151325"/>
+			</Node>
+			<Node elevation="0.399" io-node="No" label="42">
+				<Position x="-148" y="-520"/>
+			</Node>
+			<Node elevation="0.399" io-node="No" label="43">
+				<Position x="-98" y="-548"/>
+			</Node>
+		</Nodes>
+		<Links>
+			<Pipe-set>
+			</Pipe-set>
+			<Pipe-set>
+				<Pipe-type c-factor="Unset" criteria="velocity" max-velocity="Unset">
+					<Name>DINStandard</Name>
+					<Schedule>DINStandard</Schedule>
+					<Pipe-size Lagging-thickness="0" size="0.015875" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.01905" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.0254" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.03175" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.0381" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.0508000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.0635000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.0762000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.1016" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.127" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.1524" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.2032" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.254" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.3048" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.3556" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.4064" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.508000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.609600001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.711200001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.812800001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.914400001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="1.016" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="1.2" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="1.4" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="1.6" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="1.8" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="2" use="1" velocity="Unset"/>
+				</Pipe-type>
+				<Pipe additional-k="0" bore="0.0508000001" input="1" label="1" lagging-thickness="0" length="0.184" output="2" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+						<Fitting count="1" type="BALL"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0762000001" input="2" label="2" lagging-thickness="0" length="0.396" output="3" rise="-0.396" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0762000001" input="3" label="3" lagging-thickness="0" length="1.367" output="4" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELB45"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0762000001" input="4" label="4" lagging-thickness="0" length="1.152" output="5" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0762000001" input="5" label="5" lagging-thickness="0" length="3.36" output="6" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="TEE"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0762000001" input="7" label="7" lagging-thickness="0" length="0.939" output="8" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="BALL"/>
+						<Fitting-library count="1" type="Red"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="10" label="9" lagging-thickness="0" length="0.795" output="11" rise="0.795" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="BEND"/>
+						<Fitting-library count="1" type="Red"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="12" label="11" lagging-thickness="0" length="1.741" output="13" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="13" label="12" lagging-thickness="0" length="0.662" output="14" rise="-0.662" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="14" label="13" lagging-thickness="0" length="27.004" output="15" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="16" label="15" lagging-thickness="0" length="6.434" output="17" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="17" label="16" lagging-thickness="0" length="1.644" output="18" rise="-1.644" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="18" label="17" lagging-thickness="0" length="9.731" output="19" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="19" label="18" lagging-thickness="0" length="33.208" output="20" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="15" label="14" lagging-thickness="0" length="7.266" output="21" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="21" label="19" lagging-thickness="0" length="3.488" output="16" rise="3.488" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="20" label="20" lagging-thickness="0" length="4.544" output="22" rise="4.544" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="22" label="21" lagging-thickness="0" length="35.669" output="23" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="23" label="22" lagging-thickness="0" length="0.7" output="24" rise="0.7" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="24" label="23" lagging-thickness="0" length="5.014" output="25" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="25" label="24" lagging-thickness="0" length="0.674" output="26" rise="-0.674" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="26" label="25" lagging-thickness="0" length="7.083" output="27" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="27" label="26" lagging-thickness="0" length="0.7" output="28" rise="0.7" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="28" label="27" lagging-thickness="0" length="1.158" output="29" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="29" label="28" lagging-thickness="0" length="0.706" output="30" rise="-0.706" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="30" label="29" lagging-thickness="0" length="57.355" output="31" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="31" label="30" lagging-thickness="0" length="6.892" output="32" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="32" label="31" lagging-thickness="0" length="1.93" output="33" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="33" label="32" lagging-thickness="0" length="1.9" output="34" rise="-1.9" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="34" label="33" lagging-thickness="0" length="31.109" output="35" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="35" label="34" lagging-thickness="0" length="2" output="36" rise="-2" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="36" label="35" lagging-thickness="0" length="6.904" output="37" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELB45"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="37" label="36" lagging-thickness="0" length="0.367" output="38" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELB45"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="38" label="37" lagging-thickness="0" length="0.351" output="39" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="39" label="38" lagging-thickness="0" length="3.27" output="40" rise="3.27" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="40" label="39" lagging-thickness="0" length="0.141" output="41" rise="0" roughness-or-c="4.572e-05" status="normal">
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="11" label="10" lagging-thickness="0" length="0.199" output="42" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0381" input="43" label="40" lagging-thickness="0" length="0.491" output="12" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+						<Fitting count="1" type="BALL"/>
+					</Fittings>
+				</Pipe>
+			</Pipe-set>
+			<Pipe-set>
+				<Pipe-type c-factor="Unset" criteria="velocity" max-velocity="Unset">
+					<Name>DINStandard</Name>
+					<Schedule>DINStandard</Schedule>
+					<Pipe-size Lagging-thickness="0" size="0.015875" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.01905" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.0254" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.03175" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.0381" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.0508000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.0635000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.0762000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.1016" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.127" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.1524" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.2032" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.254" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.3048" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.3556" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.4064" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.508000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.609600001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.711200001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.812800001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="0.914400001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="1.016" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="1.2" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="1.4" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="1.6" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="1.8" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="0" size="2" use="1" velocity="Unset"/>
+				</Pipe-type>
+				<Pipe additional-k="0" bore="0.0762000001" input="6" label="6" lagging-thickness="Unset" length="0.742" output="7" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELBOW"/>
+					</Fittings>
+				</Pipe>
+			</Pipe-set>
+			<Pump-fan efficiency="100" input="8" label="1" output="10" status="1">
+				<Description/>
+				<Library-pump>30-P-203A/B</Library-pump>
+				<Pump-setting percentage-open="1"/>
+			</Pump-fan>
+			<Non-return input="42" label="1" output="43">
+			</Non-return>
+		</Links>
+	</Network-standard>
+	<Graphics>
+		<Display-options>
+			<Grid-options displayed="1" grid="isometric" snap="0" style="lines"/>
+			<Label-display arrows="1" dec-limit="1" dec-limitno="4" display-font="11" dry="0" fittings="1" force-labels="0" force-legend="1" forces="0" label-all="1" link-labels="1" node-labels="1" print-font="11"/>
+			<Results-display flow-arrows="1" links="1" nodes="0"/>
+			<Background colour="grey"/>
+			<Line-thickness line="2"/>
+			<Tool-tips on="0"/>
+		</Display-options>
+		<Link-schemes select-name="Pipe length">
+			<Default-link-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Default-link-scheme>
+			<Pipe-bore-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-bore-scheme>
+			<Pipe-length-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-length-scheme>
+			<Pipe-type-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-type-scheme>
+			<Pipe-volumetric-flow-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-volumetric-flow-scheme>
+			<Pipe-mass-flow-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-mass-flow-scheme>
+			<Pipe-velocity-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-velocity-scheme>
+			<Pipe-pressure-difference-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-pressure-difference-scheme>
+			<Pipe-pressure-gradient-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-pressure-gradient-scheme>
+			<Duct-length-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Duct-length-scheme>
+			<Duct-volumetric-flow-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Duct-volumetric-flow-scheme>
+			<Duct-mass-flow-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Duct-mass-flow-scheme>
+			<Duct-velocity-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Duct-velocity-scheme>
+			<Duct-pressure-difference-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Duct-pressure-difference-scheme>
+			<Duct-pressure-gradient-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Duct-pressure-gradient-scheme>
+			<Pipe-duct-length-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-duct-length-scheme>
+			<Pipe-duct-volumetric-flow-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-duct-volumetric-flow-scheme>
+			<Pipe-duct-mass-flow-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-duct-mass-flow-scheme>
+			<Pipe-duct-velocity-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-duct-velocity-scheme>
+			<Pipe-duct-pressure-difference-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-duct-pressure-difference-scheme>
+			<Pipe-duct-pressure-gradient-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-duct-pressure-gradient-scheme>
+			<Link-inflow-temperature auto-classify="1" reversed="0" use-modulus="0">
+			</Link-inflow-temperature>
+			<Link-outflow-temperature auto-classify="1" reversed="0" use-modulus="0">
+			</Link-outflow-temperature>
+			<Link-temperature-difference auto-classify="1" reversed="0" use-modulus="0">
+			</Link-temperature-difference>
+			<Tagging auto-classify="1" reversed="0" use-modulus="0">
+			</Tagging>
+		</Link-schemes>
+		<Node-schemes select-name="Elevation">
+			<Default-node-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Default-node-scheme>
+			<Node-elevation-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Node-elevation-scheme>
+			<Node-pressure-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Node-pressure-scheme>
+			<Node-temperature-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Node-temperature-scheme>
+			<Tagging auto-classify="1" reversed="0" use-modulus="0">
+			</Tagging>
+		</Node-schemes>
+		<Text-element>
+			<Position x="450" y="-364"/>
+			<Text-attributes colour="#000000" style="normal" typeface="Arial Black" typesize="24"/>
+			<Text>30-T-203</Text>
+		</Text-element>
+		<Text-element>
+			<Position x="-267" y="-865"/>
+			<Text-attributes colour="#000000" style="normal" typeface="Arial Black" typesize="24"/>
+			<Text>30-P-203B</Text>
+		</Text-element>
+		<Text-element>
+			<Position x="6783" y="1268"/>
+			<Text-attributes colour="#000000" style="normal" typeface="Arial Black" typesize="24"/>
+			<Text>20-T-230-N-3</Text>
+		</Text-element>
+	</Graphics>
+</Project>

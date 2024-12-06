@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Library SYSTEM "Library.dtd">
+<Library>
+	<Schedule-section>
+	</Schedule-section>
+	<Fitting-section>
+		<K-factor value="0.3">
+			<Item-name>Red</Item-name>
+			<Description>Reducer</Description>
+		</K-factor>
+		<K-factor value="2.5">
+			<Item-name>STNR</Item-name>
+			<Description>Box Strainer</Description>
+		</K-factor>
+	</Fitting-section>
+	<Pump-section>
+		<Pump-definition curve-type="smooth" flowrate-unit="m3-hour" max-flow="0.00333333333" min-flow="0.000833333333" pressure-unit="bar">
+			<Item-name>30-P-204A/B</Item-name>
+			<Description>30-P-204A/B</Description>
+			<Set-of-pump-points>
+				<Pump-point flow="0.000833333333" pressure="500000"/>
+				<Pump-point flow="0.00138888889" pressure="420000"/>
+				<Pump-point flow="0.00194444444" pressure="400000"/>
+				<Pump-point flow="0.00277777778" pressure="370000"/>
+			</Set-of-pump-points>
+		</Pump-definition>
+	</Pump-section>
+	<Control-valve-section>
+	</Control-valve-section>
+	<Fluid-section>
+	</Fluid-section>
+	<Nozzle-section>
+	</Nozzle-section>
+	<Deluge-valve-section>
+	</Deluge-valve-section>
+	<Lining-section>
+	</Lining-section>
+	<TurboPump-section>
+	</TurboPump-section>
+	<Inertial-pump-section>
+	</Inertial-pump-section>
+	<Pressure-loss-section>
+	</Pressure-loss-section>
+	<Tanks-section>
+	</Tanks-section>
+	<Nozzles-section>
+	</Nozzles-section>
+	<Lagging-section>
+	</Lagging-section>
+	<Binary-Interaction-Data-section>
+	</Binary-Interaction-Data-section>
+</Library>

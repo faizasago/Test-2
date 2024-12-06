@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDSET version="1.0">
+	<DESCRIPTION>
+        Results returned from the Standard Calculator
+    </DESCRIPTION>
+	<INFO name="Calculator" value="Standard"/>
+	<INFO name="Title-1" value=""/>
+	<INFO name="Title-2" value=""/>
+	<INFO name="Title-3" value=""/>
+	<INFO name="Title-4" value=""/>
+	<INFO name="Time" value="12:52"/>
+	<INFO name="Date" value="24-Apr-2024"/>
+	<INFO name="Version" value="1.11.0"/>
+	<INFO name="Customer" value="DownLoadLy.iR"/>
+	<INFO name="Licence type" value="Network"/>
+	<INFO name="Key number" value="Unavailable"/>
+	<INFO name="MUS Date" value="Unavailable"/>
+	<RESOURCE name="Control" ID="15">
+		<INFO name="Convergence accuracy" value="1.000000E-03"/>
+		<INFO name="Max iterations" value="200"/>
+		<INFO name="Elevation check tolerance" value="0.500000"/>
+	</RESOURCE>
+	<RESOURCE name="Units" ID="19">
+		<INFO name="system" value="user"/>
+		<INFO name="flowType" value="volumetric"/>
+		<INFO name="length" value="m"/>
+		<INFO name="diameter" value="in"/>
+		<INFO name="area" value="sq.in"/>
+		<INFO name="volume" value="cu.m"/>
+		<INFO name="pressure" value="bar G"/>
+		<INFO name="pressureDifference" value="bar"/>
+		<INFO name="temperature" value="degree C"/>
+		<INFO name="velocity" value="m/s"/>
+		<INFO name="flowrate" value="cu.m/hr"/>
+		<INFO name="density" value="kg/cu.m"/>
+		<INFO name="viscosity" value="cP"/>
+		<INFO name="power" value="kW"/>
+		<INFO name="heat capacity" value="J/kg K"/>
+	</RESOURCE>
+	<RESOURCE name="Fluid" ID="35">
+		<PARAM name="Fluid class" datatype="int" value="1"/>
+		<PARAM name="Fluid name" datatype="char" arraysize="6" value="Liquid"/>
+		<PARAM name="Temperature" datatype="float" unit="temperature" value="60"/>
+		<PARAM name="Vapour pressure" datatype="float" unit="pressure" value="0.1992"/>
+		<PARAM name="Density" datatype="float" unit="density" value="983.284"/>
+		<PARAM name="Viscosity" datatype="float" unit="viscosity" value="0.463"/>
+	</RESOURCE>
+	<RESOURCE name="Heat Transfer option" ID="42">
+		<INFO name="Heat Transfer mode" value="Off"/>
+	</RESOURCE>
+	<RESOURCE name="Design information" ID="44">
+		<RESOURCE name="Pipe-type" ID="45">
+			<PARAM name="Type number" datatype="int" value="29"/>
+			<PARAM name="Type name" datatype="char" arraysize="11" value="DinStandard"/>
+			<TABLE name="Sizes">
+				<FIELD name="Nominal bore" datatype="double" arraysize="1"/>
+				<FIELD name="Actual diameter" datatype="double" arraysize="1" unit="diameter"/>
+				<FIELD name="Maximum velocity" datatype="double" arraysize="1" unit="velocity"/>
+				<FIELD name="Bore used?" datatype="boolean" arraysize="1"/>
+				<DATA>
+					<TABLEDATA>
+						<TR>
+							<TD>0.625000</TD><TD>0.681102362</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>0.750000</TD><TD>0.877952755</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>1.00000</TD><TD>1.12204724</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>1.25000</TD><TD>1.46456693</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>1.50000</TD><TD>1.69685039</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>2.00000</TD><TD>2.14566929</TD><TD>2.25</TD><TD>1</TD>
+						</TR>
+						<TR>
+							<TD>2.50000</TD><TD>2.76771653</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>3.00000</TD><TD>3.24803149</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>4.00000</TD><TD>4.21653543</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>5.00000</TD><TD>5.18503936</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>6.00000</TD><TD>6.27165354</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>8.00000</TD><TD>8.12992125</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>10.0000</TD><TD>10.2519685</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>12.0000</TD><TD>12.1929134</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>14.0000</TD><TD>13.3700787</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>16.0000</TD><TD>15.3149606</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>20.0000</TD><TD>19.1338582</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>24.0000</TD><TD>23.015748</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>28.0000</TD><TD>27.4409449</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>32.0000</TD><TD>31.3700787</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>36.0000</TD><TD>35.2125984</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>40.0000</TD><TD>39.2125984</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>47.0000</TD><TD>46.2125984</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>55.0000</TD><TD>54.015748</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>63.0000</TD><TD>62.015748</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>71.0000</TD><TD>68.8818897</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+						<TR>
+							<TD>79.0000</TD><TD>84.7401574</TD><TD>2.25</TD><TD>0</TD>
+						</TR>
+					</TABLEDATA>
+				</DATA>
+			</TABLE>
+		</RESOURCE>
+	</RESOURCE>
+	<RESOURCE name="Pipes-ducts" ID="55">
+		<TABLE name="Pipes-input">
+			<DESCRIPTION>
+                Pipe configuration
+            </DESCRIPTION>
+			<FIELD name="Label" datatype="char" arraysize="12"/>
+			<FIELD name="Input node" datatype="char" arraysize="12"/>
+			<FIELD name="Output node" datatype="char" arraysize="12"/>
+			<FIELD name="Nominal bore" datatype="double" arraysize="1" unit="diameter"/>
+			<FIELD name="Internal diameter" datatype="double" arraysize="1" unit="diameter"/>
+			<FIELD name="Length" datatype="double" arraysize="1" unit="length"/>
+			<FIELD name="Elevation" datatype="double" arraysize="1" unit="length"/>
+			<FIELD name="Roughness" datatype="double" arraysize="1" unit="diameter"/>
+			<FIELD name="Total k-factor" datatype="double" arraysize="1"/>
+			<FIELD name="Break or block" datatype="boolean" arraysize="1"/>
+			<DATA>
+				<TABLEDATA>
+					<TR>
+						<TD>    1</TD><TD>   12</TD><TD>    1</TD><TD>2.000</TD><TD>2.14566929</TD><TD>2.587</TD><TD>0</TD><TD>0.0018</TD><TD>1.014</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>    2</TD><TD>    1</TD><TD>    2</TD><TD>2.000</TD><TD>2.14566929</TD><TD>0.596</TD><TD>-0.596</TD><TD>0.0018</TD><TD>0.2701</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>    3</TD><TD>    2</TD><TD>    3</TD><TD>2.000</TD><TD>2.14566929</TD><TD>26.5</TD><TD>0</TD><TD>0.0018</TD><TD>0.000</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>    4</TD><TD>    3</TD><TD>    4</TD><TD>2.000</TD><TD>2.14566929</TD><TD>4.6</TD><TD>4.6</TD><TD>0.0018</TD><TD>0.2701</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>    5</TD><TD>    4</TD><TD>    5</TD><TD>2.000</TD><TD>2.14566929</TD><TD>35</TD><TD>0</TD><TD>0.0018</TD><TD>0.2701</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>    6</TD><TD>    5</TD><TD>    6</TD><TD>2.000</TD><TD>2.14566929</TD><TD>0.636</TD><TD>0.636</TD><TD>0.0018</TD><TD>0.2701</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>    7</TD><TD>    6</TD><TD>    7</TD><TD>2.000</TD><TD>2.14566929</TD><TD>1.123</TD><TD>0</TD><TD>0.0018</TD><TD>0.2701</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>    8</TD><TD>    7</TD><TD>    8</TD><TD>2.000</TD><TD>2.14566929</TD><TD>0.636</TD><TD>-0.636</TD><TD>0.0018</TD><TD>0.2701</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>    9</TD><TD>    8</TD><TD>    9</TD><TD>2.000</TD><TD>2.14566929</TD><TD>10.13</TD><TD>0</TD><TD>0.0018</TD><TD>0.2701</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>   10</TD><TD>    9</TD><TD>   10</TD><TD>2.000</TD><TD>2.14566929</TD><TD>1.4</TD><TD>1.4</TD><TD>0.0018</TD><TD>0.2701</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>   11</TD><TD>   10</TD><TD>   11</TD><TD>2.000</TD><TD>2.14566929</TD><TD>18.72</TD><TD>0</TD><TD>0.0018</TD><TD>0.2701</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>   12</TD><TD>   13</TD><TD>   16</TD><TD>2.000</TD><TD>2.14566929</TD><TD>0.199</TD><TD>0</TD><TD>0.0018</TD><TD>0.3859</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>   13</TD><TD>   14</TD><TD>   13</TD><TD>2.000</TD><TD>2.14566929</TD><TD>1.173</TD><TD>1.173</TD><TD>0.0018</TD><TD>0.8280</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>   14</TD><TD>   17</TD><TD>   12</TD><TD>2.000</TD><TD>2.14566929</TD><TD>0.196</TD><TD>0</TD><TD>0.0018</TD><TD>1.042</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>   15</TD><TD>   11</TD><TD>   18</TD><TD>2.000</TD><TD>2.14566929</TD><TD>1.4</TD><TD>-1.4</TD><TD>0.0018</TD><TD>0.2701</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>   16</TD><TD>   18</TD><TD>   19</TD><TD>2.000</TD><TD>2.14566929</TD><TD>1.645</TD><TD>0</TD><TD>0.0018</TD><TD>0.2701</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>   17</TD><TD>   19</TD><TD>   20</TD><TD>2.000</TD><TD>2.14566929</TD><TD>28.9</TD><TD>0</TD><TD>0.0018</TD><TD>0.2701</TD><TD>0</TD>
+					</TR>
+					<TR>
+						<TD>   18</TD><TD>   20</TD><TD>   21</TD><TD>2.000</TD><TD>2.14566929</TD><TD>31.9</TD><TD>0</TD><TD>0.0018</TD><TD>0.000</TD><TD>0</TD>
+					</TR>
+				</TABLEDATA>
+			</DATA>
+		</TABLE>
+		<TABLE name="Pipe-fittings">
+			<DESCRIPTION>
+                Pipe fittings
+            </DESCRIPTION>
+			<FIELD name="Label" datatype="char" arraysize="12"/>
+			<FIELD name="Symbol" datatype="char" arraysize="12"/>
+			<FIELD name="Count" datatype="int" arraysize="1"/>
+			<FIELD name="K-factor" datatype="double" arraysize="1"/>
+			<DATA>
+				<TABLEDATA>
+					<TR>
+						<TD>    1</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>    1</TD><TD>TEE</TD><TD>1</TD><TD>0.3859</TD>
+					</TR>
+					<TR>
+						<TD>    1</TD><TD>BALL</TD><TD>1</TD><TD>5.7883E-02</TD>
+					</TR>
+					<TR>
+						<TD>    1</TD><TD>FM</TD><TD>1</TD><TD>0.3000</TD>
+					</TR>
+					<TR>
+						<TD>    2</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>    4</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>    5</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>    6</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>    7</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>    8</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>    9</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>   10</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>   11</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>   12</TD><TD>TEE</TD><TD>1</TD><TD>0.3859</TD>
+					</TR>
+					<TR>
+						<TD>   13</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>   13</TD><TD>BALL</TD><TD>1</TD><TD>5.7883E-02</TD>
+					</TR>
+					<TR>
+						<TD>   13</TD><TD>RED</TD><TD>1</TD><TD>0.5000</TD>
+					</TR>
+					<TR>
+						<TD>   14</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>   14</TD><TD>TEE</TD><TD>2</TD><TD>0.3859</TD>
+					</TR>
+					<TR>
+						<TD>   15</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>   16</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+					<TR>
+						<TD>   17</TD><TD>BEND</TD><TD>1</TD><TD>0.2701</TD>
+					</TR>
+				</TABLEDATA>
+			</DATA>
+		</TABLE>
+	</RESOURCE>
+	<RESOURCE name="Pump-input" ID="78">
+		<TABLE name="Pump-input">
+			<DESCRIPTION>
+                Pumps
+            </DESCRIPTION>
+			<FIELD name="Label" datatype="char" arraysize="12"/>
+			<FIELD name="Input node" datatype="char" arraysize="12"/>
+			<FIELD name="Output node" datatype="char" arraysize="12"/>
+			<FIELD name="Descriptor" datatype="char" arraysize="24"/>
+			<FIELD name="Cubic coefficient" datatype="double" arraysize="1" unit="pumpQuadratic"/>
+			<FIELD name="Quadratic coefficient" datatype="double" arraysize="1" unit="pumpQuadratic"/>
+			<FIELD name="Linear coefficient" datatype="double" arraysize="1" unit="pumpLinear"/>
+			<FIELD name="Constant coefficient" datatype="double" arraysize="1" unit="pumpConstant"/>
+			<FIELD name="Minimum flow" datatype="double" arraysize="1" unit="flowrate"/>
+			<FIELD name="Maximum flow" datatype="double" arraysize="12" unit="flowrate"/>
+			<FIELD name="Pump on" datatype="boolean" arraysize="1"/>
+			<FIELD name="Sensor type" datatype="char" arraysize="12"/>
+			<FIELD name="Sensor Node 1" datatype="char" arraysize="12"/>
+			<FIELD name="Sensor Node 2" datatype="char" arraysize="12"/>
+			<FIELD name="Sensor Pipe" datatype="char" arraysize="12"/>
+			<DATA>
+				<TABLEDATA>
+					<TR>
+						<TD>    1</TD><TD>   15</TD><TD>   14</TD><TD>&lt;None&gt;</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>17.9999996</TD><TD>20.0000005</TD><TD>1
+</TD><TD>None</TD><TD>0</TD><TD>NaN</TD><TD>NaN</TD>
+					</TR>
+				</TABLEDATA>
+			</DATA>
+		</TABLE>
+	</RESOURCE>
+	<RESOURCE name="NR-valve-input" ID="98">
+		<TABLE name="NR-valve-input">
+			<DESCRIPTION>
+                Non-return valves
+            </DESCRIPTION>
+			<FIELD name="Label" datatype="char" arraysize="12"/>
+			<FIELD name="Input node" datatype="char" arraysize="12"/>
+			<FIELD name="Output node" datatype="char" arraysize="12"/>
+			<DATA>
+				<TABLEDATA>
+					<TR>
+						<TD>    1</TD><TD>   16</TD><TD>   17</TD>
+					</TR>
+				</TABLEDATA>
+			</DATA>
+		</TABLE>
+	</RESOURCE>
+	<RESOURCE name="I/O Nodes" ID="106">
+		<TABLE name="I/O Nodes">
+			<DESCRIPTION>
+                Input/output nodes and specifications
+            </DESCRIPTION>
+			<FIELD name="Label" datatype="char" arraysize="12"/>
+			<FIELD name="Input/Output" datatype="boolean" arraysize="1"/>
+			<FIELD name="Pressure" datatype="double" arraysize="1" unit="pressure"/>
+			<FIELD name="Flow" datatype="double" arraysize="1" unit="flowrate"/>
+			<DATA>
+				<TABLEDATA>
+					<TR>
+						<TD>   15</TD><TD>1</TD><TD>NaN</TD><TD>18</TD>
+					</TR>
+					<TR>
+						<TD>   21</TD><TD>1</TD><TD>-1.01322</TD><TD>NaN</TD>
+					</TR>
+				</TABLEDATA>
+			</DATA>
+		</TABLE>
+	</RESOURCE>
+	<RESOURCE name="Pipe-sizing" ID="115">
+		<TABLE name="Pipe-sizing">
+			<DESCRIPTION>
+                Calculated pipe sizes
+            </DESCRIPTION>
+			<FIELD name="Label" datatype="char" arraysize="12"/>
+			<FIELD name="Bore" datatype="double" arraysize="1" unit="diameter"/>
+			<DATA>
+				<TABLEDATA>
+				</TABLEDATA>
+			</DATA>
+		</TABLE>
+	</RESOURCE>
+	<RESOURCE name="Pipes-results" ID="122">
+		<TABLE name="Pipes-results">
+			<DESCRIPTION>
+                Flow in pipes
+            </DESCRIPTION>
+			<FIELD name="Label" datatype="char" arraysize="12"/>
+			<FIELD name="Input node" datatype="char" arraysize="12"/>
+			<FIELD name="Output node" datatype="char" arraysize="12"/>
+			<FIELD name="Inlet pressure" datatype="double" arraysize="1" unit="pressure"/>
+			<FIELD name="Outlet pressure" datatype="double" arraysize="1" unit="pressure"/>
+			<FIELD name="Friction" datatype="double" arraysize="1" unit="friction"/>
+			<FIELD name="Velocity" datatype="double" arraysize="1" unit="velocity"/>
+			<FIELD name="Flow" datatype="double" arraysize="1" unit="flowrate"/>
+			<FIELD name="Density" datatype="double" arraysize="1" unit="density"/>
+			<FIELD name="Static head loss" datatype="double" arraysize="1" unit="pressureDifference"/>
+			<FIELD name="Friction factor" datatype="double" arraysize="1"/>
+			<DATA>
+				<TABLEDATA>
+					<TR>
+						<TD>    1</TD><TD>   12</TD><TD>    1</TD><TD>4.8639575</TD><TD>4.8194956</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>    2</TD><TD>    1</TD><TD>    2</TD><TD>4.8194956</TD><TD>4.8658981</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>-0.057470635</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>    3</TD><TD>    2</TD><TD>    3</TD><TD>4.8658981</TD><TD>4.6450188</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>    4</TD><TD>    3</TD><TD>    4</TD><TD>4.6450188</TD><TD>4.1570112</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0.44356527</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>    5</TD><TD>    4</TD><TD>    5</TD><TD>4.1570112</TD><TD>3.8591828</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>    6</TD><TD>    5</TD><TD>    6</TD><TD>3.8591828</TD><TD>3.7864534</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0.06132772</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>    7</TD><TD>    6</TD><TD>    7</TD><TD>3.7864534</TD><TD>3.7709925</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>    8</TD><TD>    7</TD><TD>    8</TD><TD>3.7709925</TD><TD>3.8209181</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>-0.06132772</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>    9</TD><TD>    8</TD><TD>    9</TD><TD>3.8209181</TD><TD>3.7303916</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>   10</TD><TD>    9</TD><TD>   10</TD><TD>3.7303916</TD><TD>3.5776234</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0.13499813</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>   11</TD><TD>   10</TD><TD>   11</TD><TD>3.5776234</TD><TD>3.4154569</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>   12</TD><TD>   13</TD><TD>   16</TD><TD>4.8994969</TD><TD>4.8891225</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>   13</TD><TD>   14</TD><TD>   13</TD><TD>5.0410838</TD><TD>4.8994969</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0.11310915</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>   14</TD><TD>   17</TD><TD>   12</TD><TD>4.8891225</TD><TD>4.8639575</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>   15</TD><TD>   11</TD><TD>   18</TD><TD>3.4154569</TD><TD>3.532685</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>-0.13499813</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>   16</TD><TD>   18</TD><TD>   19</TD><TD>3.532685</TD><TD>3.5128731</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>   17</TD><TD>   19</TD><TD>   20</TD><TD>3.5128731</TD><TD>3.2658888</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+					<TR>
+						<TD>   18</TD><TD>   20</TD><TD>   21</TD><TD>3.2658888</TD><TD>3</TD><TD>0.0083350781</TD><TD>2.1433206</TD><TD>18.0000013</TD><TD>983.28418</TD><TD>0</TD><TD>5.02831768E-03
+</TD>
+					</TR>
+				</TABLEDATA>
+			</DATA>
+		</TABLE>
+	</RESOURCE>
+	<RESOURCE name="Pump-results" ID="138">
+		<TABLE name="Pump-results">
+			<DESCRIPTION>
+                Flow through Pumps
+            </DESCRIPTION>
+			<FIELD name="Label" datatype="char" arraysize="12"/>
+			<FIELD name="Input pressure" datatype="double" arraysize="1" unit="pressure"/>
+			<FIELD name="Output pressure" datatype="double" arraysize="1" unit="pressure"/>
+			<FIELD name="Pressure difference" datatype="double" arraysize="1" unit="pressureDifference"/>
+			<FIELD name="Flow" datatype="double" arraysize="1" unit="flowrate"/>
+			<FIELD name="Power" datatype="double" arraysize="1" unit="power"/>
+			<FIELD name="Setting (%)" datatype="double" arraysize="1"/>
+			<FIELD name="NPSHA" datatype="double" arraysize="1" unit="length"/>
+			<FIELD name="Cavitation" datatype="double" arraysize="1"/>
+			<DATA>
+				<TABLEDATA>
+					<TR>
+						<TD>    1</TD><TD>5.0410838</TD><TD>5.0410838</TD><TD>0</TD><TD>17.9999996</TD><TD>0</TD><TD>100.00000</TD><TD>60.720745</TD><TD>0.0000000</TD>
+					</TR>
+				</TABLEDATA>
+			</DATA>
+		</TABLE>
+	</RESOURCE>
+	<RESOURCE name="NR-valve-results" ID="152">
+		<TABLE name="NR-valve-results">
+			<DESCRIPTION>
+                Flow through non-return valves
+            </DESCRIPTION>
+			<FIELD name="Label" datatype="char" arraysize="12"/>
+			<FIELD name="Input node" datatype="char" arraysize="12"/>
+			<FIELD name="Output node" datatype="char" arraysize="12"/>
+			<FIELD name="Input pressure" datatype="double" arraysize="1" unit="pressure"/>
+			<FIELD name="Output pressure" datatype="double" arraysize="1" unit="pressure"/>
+			<FIELD name="Flow" datatype="double" arraysize="1" unit="flowrate"/>
+			<FIELD name="Density" datatype="double" arraysize="1" unit="density"/>
+			<DATA>
+				<TABLEDATA>
+					<TR>
+						<TD>    1</TD><TD>   16</TD><TD>   17</TD><TD>4.8891225</TD><TD>4.8891225</TD><TD>17.9999996</TD><TD>983.28418</TD>
+					</TR>
+				</TABLEDATA>
+			</DATA>
+		</TABLE>
+	</RESOURCE>
+	<RESOURCE name="Node pressures" ID="164">
+		<DESCRIPTION>
+            Pressures at all nodes
+        </DESCRIPTION>
+		<TABLE name="Node pressures">
+			<FIELD name="Label" datatype="char" arraysize="12"/>
+			<FIELD name="Elevation" datatype="double" arraysize="1" unit="length"/>
+			<FIELD name="Pressure" datatype="double" arraysize="1" unit="pressure"/>
+			<DATA>
+				<TABLEDATA>
+					<TR>
+						<TD>   14</TD><TD>0</TD><TD>6.05433375</TD>
+					</TR>
+					<TR>
+						<TD>   13</TD><TD>1.17299998</TD><TD>5.91274688</TD>
+					</TR>
+					<TR>
+						<TD>   16</TD><TD>1.17299998</TD><TD>5.9023725</TD>
+					</TR>
+					<TR>
+						<TD>   17</TD><TD>1.17299998</TD><TD>5.9023725</TD>
+					</TR>
+					<TR>
+						<TD>   12</TD><TD>1.17299998</TD><TD>5.8772075</TD>
+					</TR>
+					<TR>
+						<TD>    1</TD><TD>1.17299998</TD><TD>5.83274563</TD>
+					</TR>
+					<TR>
+						<TD>    2</TD><TD>0.576999962</TD><TD>5.87914813</TD>
+					</TR>
+					<TR>
+						<TD>    3</TD><TD>0.576999962</TD><TD>5.65826875</TD>
+					</TR>
+					<TR>
+						<TD>    4</TD><TD>5.17700005</TD><TD>5.17026125</TD>
+					</TR>
+					<TR>
+						<TD>    5</TD><TD>5.17700005</TD><TD>4.87243281</TD>
+					</TR>
+					<TR>
+						<TD>    6</TD><TD>5.8130002</TD><TD>4.79970344</TD>
+					</TR>
+					<TR>
+						<TD>    7</TD><TD>5.8130002</TD><TD>4.7842425</TD>
+					</TR>
+					<TR>
+						<TD>    8</TD><TD>5.17700005</TD><TD>4.83416813</TD>
+					</TR>
+					<TR>
+						<TD>    9</TD><TD>5.17700005</TD><TD>4.74364156</TD>
+					</TR>
+					<TR>
+						<TD>   10</TD><TD>6.57700014</TD><TD>4.59087344</TD>
+					</TR>
+					<TR>
+						<TD>   11</TD><TD>6.57700014</TD><TD>4.42870688</TD>
+					</TR>
+					<TR>
+						<TD>   18</TD><TD>5.17700005</TD><TD>4.545935</TD>
+					</TR>
+					<TR>
+						<TD>   19</TD><TD>5.17700005</TD><TD>4.52612313</TD>
+					</TR>
+					<TR>
+						<TD>   20</TD><TD>5.17700005</TD><TD>4.27913875</TD>
+					</TR>
+					<TR>
+						<TD>   21</TD><TD>5.17700005</TD><TD>4.01325</TD>
+					</TR>
+					<TR>
+						<TD>   15</TD><TD>0</TD><TD>6.05433375</TD>
+					</TR>
+				</TABLEDATA>
+			</DATA>
+		</TABLE>
+	</RESOURCE>
+	<RESOURCE name="Input-nodes" ID="172">
+		<DESCRIPTION>
+            Flow at input nodes
+        </DESCRIPTION>
+		<TABLE name="Input-nodes">
+			<FIELD name="Label" datatype="char" arraysize="12"/>
+			<FIELD name="Pressure" datatype="double" arraysize="1" unit="pressure"/>
+			<FIELD name="Flow" datatype="double" arraysize="1" unit="flowrate"/>
+			<FIELD name="Pressure spec," datatype="boolean" arraysize="1"/>
+			<FIELD name="Flow spec," datatype="boolean" arraysize="1"/>
+			<DATA>
+				<TABLEDATA>
+					<TR>
+						<TD>   15</TD><TD>5.04108375</TD><TD>17.9999996</TD><TD>0</TD><TD>1</TD>
+					</TR>
+				</TABLEDATA>
+			</DATA>
+		</TABLE>
+	</RESOURCE>
+	<RESOURCE name="Output-nodes" ID="182">
+		<DESCRIPTION>
+            Flow at output nodes
+        </DESCRIPTION>
+		<TABLE name="Output-nodes">
+			<FIELD name="Label" datatype="char" arraysize="12"/>
+			<FIELD name="Pressure" datatype="double" arraysize="1" unit="pressure"/>
+			<FIELD name="Flow" datatype="double" arraysize="1" unit="flowrate"/>
+			<FIELD name="Pressure spec," datatype="boolean" arraysize="1"/>
+			<FIELD name="Flow spec," datatype="boolean" arraysize="1"/>
+			<DATA>
+				<TABLEDATA>
+					<TR>
+						<TD>   21</TD><TD>3</TD><TD>17.9999996</TD><TD>1</TD><TD>0</TD>
+					</TR>
+				</TABLEDATA>
+			</DATA>
+		</TABLE>
+	</RESOURCE>
+</XDSET>

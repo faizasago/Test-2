@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Library SYSTEM "Library.dtd">
+<Library>
+	<Schedule-section>
+	</Schedule-section>
+	<Fitting-section>
+		<K-factor value="0.5">
+			<Item-name>RED</Item-name>
+			<Description>2&quot; REDUCER</Description>
+		</K-factor>
+	</Fitting-section>
+	<Pump-section>
+	</Pump-section>
+	<Control-valve-section>
+	</Control-valve-section>
+	<Fluid-section>
+	</Fluid-section>
+	<Nozzle-section>
+	</Nozzle-section>
+	<Deluge-valve-section>
+	</Deluge-valve-section>
+	<Lining-section>
+	</Lining-section>
+	<TurboPump-section>
+	</TurboPump-section>
+	<Inertial-pump-section>
+	</Inertial-pump-section>
+	<Pressure-loss-section>
+	</Pressure-loss-section>
+	<Tanks-section>
+	</Tanks-section>
+	<Nozzles-section>
+	</Nozzles-section>
+	<Lagging-section>
+	</Lagging-section>
+	<Binary-Interaction-Data-section>
+	</Binary-Interaction-Data-section>
+</Library>

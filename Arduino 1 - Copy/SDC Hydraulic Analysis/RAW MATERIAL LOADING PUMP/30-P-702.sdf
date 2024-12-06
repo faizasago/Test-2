@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "standard.dtd">
+<Project version="1.11.0  (3574)">
+	<Network-standard>
+		<Libraries>
+			<User-lib file="C:\SDC Hydraulic Analysis\RAW MATERIAL LOADING PUMP\30-P-702.slf"/>
+		</Libraries>
+		<Attributes>
+			<Units flowtype="volumetric" type="user-defined">
+				<Length-unit display="0" precision="0" unit="metres"/>
+				<Diameter-unit display="1" precision="1" unit="inches"/>
+				<Pressure-unit display="1" precision="1" unit="bar-g"/>
+				<Temperature-unit display="0" precision="0" unit="deg-c"/>
+				<Velocity-unit display="1" precision="1" unit="m-s"/>
+				<Density-unit display="1" precision="1" unit="kg-m3"/>
+				<Viscosity-unit display="1" precision="1" unit="cp"/>
+				<Volumetric-flow-unit display="1" precision="1" unit="m3-hour"/>
+				<Mass-flow-unit display="0" precision="0" unit="kg-s"/>
+				<Heat-capacity-unit display="1" precision="1" unit="joule-kgk"/>
+				<Power-unit display="0" precision="0" unit="kW"/>
+			</Units>
+			<Fluid-water temperature="333.15"/>
+			<Design-options analysis-phase="1" design-phase="0" max-velocity="Unset" orifice-plate-model="bs1042" pressure-equation="colebrook-white"/>
+			<Heat-transfer ambient-temperature="288.15" enabled="0" heat-loss-enabled="0"/>
+			<Calc-options convergence-accuracy="0.001" height-check-tolerance="0.5" lines-page="55" max-iterations="200" node-elevations="0" warnings="proceed">
+				<Output validation="0">
+					<Tables breaks-blocks="1" design="1" ducts="1" elevations="1" filter-results="1" filters="1" fixed-pd="1" fluid="1" general="1" hgl="1" inlet-results="1" io-nodes="1" leak-results="1" leaks="1" materials="0" nozzle-results="1" nozzles="1" nr-valve-results="1" nr-valves="1" outlet-results="1" pipe-results="1" pipes="1" plate-results="1" plates="1" pump-results="1" pumps="1" sensors="1" valve-results="1" valves="1"/>
+				</Output>
+			</Calc-options>
+			<Defaults diameter="Unset" elevation="0" friction="Unset" headloss="0" height="Unset" nozzle-cd="Unset" nozzle-diameter="Unset" ports="1" vena-contracta="Unset" width="Unset"/>
+			<Excluded-fittings list=""/>
+		</Attributes>
+		<Nodes>
+			<Node elevation="6.014" io-node="No" label="2">
+				<Position x="0" y="-60"/>
+			</Node>
+			<Node elevation="0.425" io-node="No" label="3">
+				<Position x="0" y="-370"/>
+			</Node>
+			<Node elevation="0.425" io-node="No" label="4">
+				<Position x="151" y="-463"/>
+			</Node>
+			<Node elevation="0" io-node="No" label="5">
+				<Position x="150" y="-519"/>
+			</Node>
+			<Node elevation="0" io-node="No" label="6">
+				<Position x="-276" y="-765"/>
+			</Node>
+			<Node elevation="-0.3" io-node="No" label="7">
+				<Position x="-273" y="-821"/>
+			</Node>
+			<Node elevation="-0.3" io-node="No" label="8">
+				<Position x="-99" y="-921"/>
+			</Node>
+			<Node elevation="-2.275" io-node="No" label="9">
+				<Position x="-99" y="-1096"/>
+			</Node>
+			<Node elevation="-2.275" io-node="No" label="10">
+				<Position x="348" y="-1354"/>
+			</Node>
+			<Node elevation="-2.275" io-node="No" label="11">
+				<Position x="505" y="-1273"/>
+			</Node>
+			<Node elevation="-2.275" io-node="No" label="12">
+				<Position x="707" y="-1382"/>
+			</Node>
+			<Node elevation="-2.275" io-node="No" label="13">
+				<Position x="849" y="-1298"/>
+			</Node>
+			<Node elevation="-3.448" io-node="No" label="14">
+				<Position x="848" y="-1551"/>
+			</Node>
+			<Node elevation="-3.448" io-node="Input" label="15" use-spec-in-scenarios="0">
+				<Position x="848" y="-1584"/>
+				<Calculation-spec flow="0.005"/>
+			</Node>
+			<Node elevation="-2.275" io-node="No" label="16">
+				<Position x="800" y="-1327"/>
+			</Node>
+			<Node elevation="-2.275" io-node="No" label="17">
+				<Position x="774" y="-1341"/>
+			</Node>
+			<Node elevation="6.014" io-node="Output" label="1" use-spec-in-scenarios="0">
+				<Position x="-77" y="-45"/>
+				<Calculation-spec pressure="151325"/>
+			</Node>
+		</Nodes>
+		<Links>
+			<Pipe-set>
+			</Pipe-set>
+			<Pipe-set>
+				<Pipe-type c-factor="Unset" criteria="velocity" max-velocity="Unset">
+					<Name>DINStandard</Name>
+					<Schedule>DINStandard</Schedule>
+					<Pipe-size Lagging-thickness="Unset" size="0.015875" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.01905" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.0254" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.03175" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.0381" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.0508000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.0635000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.0762000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.1016" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.127" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.1524" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.2032" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.254" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.3048" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.3556" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.4064" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.508000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.609600001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.711200001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.812800001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.914400001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="1.016" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="1.2" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="1.4" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="1.6" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="1.8" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="2" use="1" velocity="Unset"/>
+				</Pipe-type>
+				<Pipe additional-k="0" bore="0.0381" input="6" label="5" lagging-thickness="Unset" length="28.208" output="5" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="BEND"/>
+					</Fittings>
+				</Pipe>
+			</Pipe-set>
+			<Pipe-set>
+				<Pipe-type c-factor="Unset" criteria="velocity" max-velocity="Unset">
+					<Name>DINStandard</Name>
+					<Schedule>DINStandard</Schedule>
+					<Pipe-size Lagging-thickness="Unset" size="0.015875" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.01905" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.0254" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.03175" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.0381" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.0508000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.0635000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.0762000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.1016" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.127" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.1524" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.2032" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.254" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.3048" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.3556" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.4064" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.508000001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.609600001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.711200001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.812800001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="0.914400001" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="1.016" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="1.2" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="1.4" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="1.6" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="1.8" use="1" velocity="Unset"/>
+					<Pipe-size Lagging-thickness="Unset" size="2" use="1" velocity="Unset"/>
+				</Pipe-type>
+				<Pipe additional-k="0" bore="0.0508000001" input="14" label="13" lagging-thickness="Unset" length="1.173" output="13" rise="1.173" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="BEND"/>
+						<Fitting-library count="1" type="RED"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0508000001" input="13" label="12" lagging-thickness="Unset" length="0.199" output="16" rise="0" roughness-or-c="4.572e-05" status="normal">
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0508000001" input="17" label="14" lagging-thickness="Unset" length="0.196" output="12" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="BEND"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0508000001" input="12" label="11" lagging-thickness="Unset" length="1.806" output="11" rise="0" roughness-or-c="4.572e-05" status="normal">
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0508000001" input="11" label="10" lagging-thickness="Unset" length="0.916" output="10" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="BEND"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0508000001" input="10" label="9" lagging-thickness="Unset" length="12.481" output="9" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="BEND"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0508000001" input="9" label="8" lagging-thickness="Unset" length="1.975" output="8" rise="1.975" roughness-or-c="4.572e-05" status="normal">
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0508000001" input="8" label="7" lagging-thickness="Unset" length="1.88" output="7" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="BEND"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0508000001" input="7" label="6" lagging-thickness="Unset" length="0.3" output="6" rise="0.3" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="BEND"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0508000001" input="5" label="4" lagging-thickness="Unset" length="0.425" output="4" rise="0.425" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="BEND"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0508000001" input="4" label="3" lagging-thickness="Unset" length="2.407" output="3" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="BEND"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0508000001" input="3" label="2" lagging-thickness="Unset" length="5.589" output="2" rise="5.589" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="ELB45"/>
+					</Fittings>
+				</Pipe>
+				<Pipe additional-k="0" bore="0.0508000001" input="2" label="1" lagging-thickness="Unset" length="141" output="1" rise="0" roughness-or-c="4.572e-05" status="normal">
+					<Fittings>
+						<Fitting count="1" type="BALL"/>
+					</Fittings>
+				</Pipe>
+			</Pipe-set>
+			<Pump-fan efficiency="80" input="15" label="1" output="14" status="1">
+				<Description/>
+				<User-pump coeff0="0.0000000000" coeff1="0.0000000000" coeff2="0.0000000000" max-flow="0.00555555556" min-flow="0.005"/>
+				<Pump-setting percentage-open="1"/>
+			</Pump-fan>
+			<Non-return input="16" label="1" output="17">
+			</Non-return>
+		</Links>
+	</Network-standard>
+	<Graphics>
+		<Display-options>
+			<Grid-options displayed="1" grid="isometric" snap="0" style="lines"/>
+			<Label-display arrows="1" dec-limit="1" dec-limitno="4" display-font="11" dry="0" fittings="1" force-labels="0" force-legend="1" forces="0" label-all="1" link-labels="1" node-labels="1" print-font="11"/>
+			<Results-display flow-arrows="1" links="0" nodes="0"/>
+			<Background colour="grey"/>
+			<Line-thickness line="2"/>
+			<Tool-tips on="0"/>
+		</Display-options>
+		<Link-schemes select-name="None">
+			<Default-link-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Default-link-scheme>
+			<Pipe-bore-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-bore-scheme>
+			<Pipe-length-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-length-scheme>
+			<Pipe-type-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-type-scheme>
+			<Pipe-volumetric-flow-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-volumetric-flow-scheme>
+			<Pipe-mass-flow-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-mass-flow-scheme>
+			<Pipe-velocity-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-velocity-scheme>
+			<Pipe-pressure-difference-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-pressure-difference-scheme>
+			<Pipe-pressure-gradient-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-pressure-gradient-scheme>
+			<Duct-length-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Duct-length-scheme>
+			<Duct-volumetric-flow-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Duct-volumetric-flow-scheme>
+			<Duct-mass-flow-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Duct-mass-flow-scheme>
+			<Duct-velocity-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Duct-velocity-scheme>
+			<Duct-pressure-difference-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Duct-pressure-difference-scheme>
+			<Duct-pressure-gradient-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Duct-pressure-gradient-scheme>
+			<Pipe-duct-length-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-duct-length-scheme>
+			<Pipe-duct-volumetric-flow-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-duct-volumetric-flow-scheme>
+			<Pipe-duct-mass-flow-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-duct-mass-flow-scheme>
+			<Pipe-duct-velocity-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-duct-velocity-scheme>
+			<Pipe-duct-pressure-difference-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-duct-pressure-difference-scheme>
+			<Pipe-duct-pressure-gradient-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Pipe-duct-pressure-gradient-scheme>
+			<Link-inflow-temperature auto-classify="1" reversed="0" use-modulus="0">
+			</Link-inflow-temperature>
+			<Link-outflow-temperature auto-classify="1" reversed="0" use-modulus="0">
+			</Link-outflow-temperature>
+			<Link-temperature-difference auto-classify="1" reversed="0" use-modulus="0">
+			</Link-temperature-difference>
+			<Tagging auto-classify="1" reversed="0" use-modulus="0">
+			</Tagging>
+		</Link-schemes>
+		<Node-schemes select-name="None">
+			<Default-node-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Default-node-scheme>
+			<Node-elevation-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Node-elevation-scheme>
+			<Node-pressure-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Node-pressure-scheme>
+			<Node-temperature-scheme auto-classify="1" reversed="0" use-modulus="0">
+			</Node-temperature-scheme>
+			<Tagging auto-classify="1" reversed="0" use-modulus="0">
+			</Tagging>
+		</Node-schemes>
+		<Text-element>
+			<Position x="-103" y="7"/>
+			<Text-attributes colour="#000000" style="normal" typeface="Arial Black" typesize="24"/>
+			<Text>30-T-105</Text>
+		</Text-element>
+	</Graphics>
+</Project>

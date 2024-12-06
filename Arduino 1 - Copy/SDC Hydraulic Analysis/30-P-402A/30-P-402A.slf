@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Library SYSTEM "Library.dtd">
+<Library>
+	<Schedule-section>
+	</Schedule-section>
+	<Fitting-section>
+		<K-factor value="2.5">
+			<Item-name>STNR</Item-name>
+			<Description>Box Strainer</Description>
+		</K-factor>
+		<K-factor value="0.7">
+			<Item-name>Red</Item-name>
+			<Description>Reducer</Description>
+		</K-factor>
+	</Fitting-section>
+	<Pump-section>
+		<Pump-definition curve-type="cubic" flowrate-unit="m3-hour" max-flow="0.0125" min-flow="0.00277777778" pressure-unit="bar">
+			<Item-name>30-P-402A</Item-name>
+			<Description>Product Transfer Pump</Description>
+			<Set-of-pump-points>
+				<Pump-point flow="0.00277777778" pressure="350000"/>
+				<Pump-point flow="0.00555555556" pressure="215000"/>
+				<Pump-point flow="0.00833333333" pressure="179000"/>
+				<Pump-point flow="0.0111111111" pressure="160000"/>
+			</Set-of-pump-points>
+		</Pump-definition>
+	</Pump-section>
+	<Control-valve-section>
+	</Control-valve-section>
+	<Fluid-section>
+		<Fluid-direct density="1041.865" viscosity="0.4">
+			<Item-name>PE-64</Item-name>
+			<Description>Product</Description>
+		</Fluid-direct>
+	</Fluid-section>
+	<Nozzle-section>
+	</Nozzle-section>
+	<Deluge-valve-section>
+	</Deluge-valve-section>
+	<Lining-section>
+	</Lining-section>
+	<TurboPump-section>
+	</TurboPump-section>
+	<Inertial-pump-section>
+	</Inertial-pump-section>
+	<Pressure-loss-section>
+	</Pressure-loss-section>
+	<Tanks-section>
+	</Tanks-section>
+	<Nozzles-section>
+	</Nozzles-section>
+	<Lagging-section>
+	</Lagging-section>
+	<Binary-Interaction-Data-section>
+	</Binary-Interaction-Data-section>
+</Library>
